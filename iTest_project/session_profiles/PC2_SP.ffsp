@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<SessionTemplate version="9.0.4.202208111512">
+    <baseApplication>com.fnfr.svt.applications.ssh</baseApplication>
+    <sessionProperties type="com.fnfr.svt.applications.ssh.documents.SSHProperties">
+        <ipAddress inherit="false">vel-alraducu.spirenteng.com</ipAddress>
+        <user inherit="false">root</user>
+        <password inherit="false" masked="true">iRyLc4KQj80=</password>
+    </sessionProperties>
+    <responseLibrary inherit="false">project://iTest_project/</responseLibrary>
+    <formMapLibrary inherit="false">project://iTest_project/</formMapLibrary>
+    <sessionClassTestCase inherit="false">project://iTest_project/session_profiles/PC2_QC.fftc</sessionClassTestCase>
+    <isReferenceProfile>true</isReferenceProfile>
+    <language>Python</language>
+</SessionTemplate>

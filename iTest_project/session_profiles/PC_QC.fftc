@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<testCase version="9.0.4.202208111512">
+    <general>
+        <sessionClass includeTestCase="true" sessionType="project://iTest_project/session_profiles/PC_SP.ffsp"/>
+        <language>Python</language>
+        <xPathVersion>XPATH31</xPathVersion>
+    </general>
+    <procedures>
+        <item name="main"/>
+    </procedures>
+</testCase>
