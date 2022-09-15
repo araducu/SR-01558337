@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>test-topology</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="a27644af-a0b7-481c-b9d4-a3d662c00ac5" id="i098e02d2-9cdc-415f-aac6-c8f9efc31e9d" shared="true" type="device">
+<property isimportant="false" name="name">PC-test1</property>
+<property isimportant="false" name="inventoryName">PC-test1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/repository/v2/asset/d441f64d-62b8-49cb-bc5c-67045635e714?rasterizedIconSize=64</property>
+<property isimportant="false" name="isIconVisible">true</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId">d441f64d-62b8-49cb-bc5c-67045635e714</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<property isimportant="false" name="nestedCoordinates">undefinedundefined</property>
+<property isimportant="false" name="color">WHITE</property>
+<property isimportant="false" name="borderColor">SILVER</property>
+<boundary height="90" width="280" x="260" y="110"/>
+<propertyCollection name="System Identification">
+<property id="a54724b4-31ac-4bba-821c-0abc8c0d81d0" name="ipAddress" type="text" valuelabel="">vds-alraducu.spirenteng.com</property>
+<property id="74602944-5edf-deff-a880-020875ba96fd" name="Hostname" type="text" valuelabel=""/>
+<property id="3c8cc013-d0d2-0475-f236-97830bd02c7f" name="Make" type="text" valuelabel=""/>
+<property id="0712cac7-11fb-7925-83f3-ec77a926e33f" name="Model" type="text" valuelabel=""/>
+<property id="e2c3d226-813d-3198-152b-277148ecfe3d" name="Serial Number" type="text" valuelabel=""/>
+</propertyCollection>
+<propertyCollection name="Location Information">
+<property id="c9789305-fd51-5f93-3519-f7b4de58bf35" name="Facility" type="text" valuelabel=""/>
+<property id="4fc83a71-a1dc-7a99-c810-1f1a04bc729e" name="Room" type="text" valuelabel=""/>
+<property id="6c3c94c9-9a4c-f34b-d3d2-967ca8883d05" name="Floor Position" type="text" valuelabel=""/>
+</propertyCollection>
+<propertyCollection name="Credentials">
+<property id="a75a3440-3dae-b001-03a2-8ba8439dacdb" name="username" type="text" valuelabel=""/>root</property>
+<property id="e9e68eb0-708c-d04e-b5d9-717e6b9641fd" name="password" type="password" valuelabel=""/>admin</property>
+</propertyCollection>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
