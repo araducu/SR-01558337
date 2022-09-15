@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tbml xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd" xmlns="http://www.teslaalliance.org/trs/tbml/1.0">
+  <header>
+    <name>new_topology</name>
+    <description></description>
+    <property name="author">AlRaducu</property>
+    <property name="dateCreated">2022-09-14T12:29:25.369+03:00</property>
+    <property name="notes"/>
+    <property name="xPathVersion">3.1</property>
+    <property name="dateModified">2022-09-14T12:38:03.498+03:00</property>
+    <property name="creationTool" vendor="com.fnfr">com.fnfr.itest.topology.tbml.diagram</property>
+    <property name="creationToolVersion" vendor="com.fnfr">9.0.0.202203240639</property>
+  </header>
+  <body>
+    <resources>
+      <resource guid="8817ede8-9582-4b7b-a380-61a36abf931b" id="resource_0" type="pc">
+        <boundary height="100" width="100" x="146" y="256"/>
+        <property name="iconURI">platform:/plugin/com.fnfr.itest.topology.tbml.edit/icons/full/topology/pc_32.gif</property>
+        <property name="name">pc1</property>
+        <property name="inventoryName"/>
+        <extensions type="com.fnfr.itest.session" xs:namespace="com.fnfr.itest.session">
+          <session baseSessionProfile="" name="ssh2" provider="com.fnfr">
+            <sessionProfile version="9.0.4.202208111512">
+              <baseApplication>com.fnfr.svt.applications.ssh</baseApplication>
+              <sessionProperties type="com.fnfr.svt.applications.ssh.documents.SSHProperties">
+                <TerminalProperties>
+                  <prompts merge="true">
+                    <item name="normal1">
+                      <Content>root@vds-alraducu:~#</Content>
+                    </item>
+                  </prompts>
+                </TerminalProperties>
+              </sessionProperties>
+              <baseProfile>project://iTest_project/session_profiles/PC_SP.ffsp</baseProfile>
+              <language>Python</language>
+            </sessionProfile>
+            <isInherited>false</isInherited>
+            <isDisabled>false</isDisabled>
+          </session>
+        </extensions>
+      </resource>
+      <resource guid="dd31b724-99a4-4e86-a11c-91c17ae34c50" id="resource_1" type="pc">
+        <boundary height="100" width="100" x="461" y="251"/>
+        <property name="iconURI">platform:/plugin/com.fnfr.itest.topology.tbml.edit/icons/full/topology/pc_32.gif</property>
+        <property name="name">pc2</property>
+        <property name="inventoryName"/>
+        <extensions type="com.fnfr.itest.session" xs:namespace="com.fnfr.itest.session">
+          <session baseSessionProfile="" name="ssh" provider="com.fnfr">
+            <sessionProfile version="9.0.4.202208111512">
+              <baseApplication>com.fnfr.svt.applications.ssh</baseApplication>
+              <sessionProperties type="com.fnfr.svt.applications.ssh.documents.SSHProperties"/>
+              <baseProfile>project://iTest_project/session_profiles/PC2_SP.ffsp</baseProfile>
+              <language>Python</language>
+            </sessionProfile>
+            <isInherited>false</isInherited>
+            <isDisabled>false</isDisabled>
+          </session>
+        </extensions>
+      </resource>
+    </resources>
+    <connectivity/>
+  </body>
+  <illustration>
+    <layer/>
+  </illustration>
+</tbml>
